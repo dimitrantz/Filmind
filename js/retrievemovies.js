@@ -31,16 +31,16 @@ function display_mood(curr_mood){
 // Suggesting movies based on the slider mood
 function find_movies(curr_mood)
 {
-    let curr_movie, curr_name, curr_image;
+    let mood_movies, movie_title, movie_img;
 
-    curr_movie = MOVIES[curr_mood];
-    if(curr_movie != null) {   // After testing that the array is not empty, I assign a name and image
-        for (i = 0; i < curr_movie.length; i++) {
-            curr_name  = MOVIES[curr_mood][i].name;
-            curr_image = MOVIES[curr_mood][i].image;
+    mood_movies = MOVIES[curr_mood];
+    if(mood_movies != null) {   // After testing that the array is not empty, I assign a name and image
+        for (i = 0; i < mood_movies.length; i++) {
+            movie_title  = MOVIES[curr_mood][i].title;
+            movie_img = MOVIES[curr_mood][i].image;
 
-            document.getElementById("movie-"+i+"-img").src=curr_image;       //Change the HTML content of a <src> element with id="movie-"i"-img:
-            document.getElementById("movie-"+i+"-title").innerHTML=curr_name; //Change the HTML content of a <p> element with id="movie-"i"-title:
+            document.getElementById("movie-"+i+"-img").src=movie_img;       //Change the HTML content of a <src> element with id="movie-"i"-img:
+            document.getElementById("movie-"+i+"-title").innerHTML=movie_title; //Change the HTML content of a <p> element with id="movie-"i"-title:
         }
     }
 }
@@ -63,6 +63,9 @@ $('input[type="range"]').change(function (){
         display_mood(' ')
         return;
     }else{
+
+        
+            
         reset_slider(value);
         display_mood(ALL_MOODS[value]);
         find_movies(ALL_MOODS[value]);

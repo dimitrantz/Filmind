@@ -28,20 +28,20 @@ $(".upload-button").change(function(event){
 // Used open source-code.
 function processXML(xml) {
    $(xml).find('programme').each(function(){
-      var $movie, name, image, mood;
+      var $movie, title, image, mood;
 
-      // .find() method allows us to search through "name", "image", "mood" of
+      // .find() method allows us to search through "title", "image", "mood" of
       //DOM tree and construct a new jQuery object from the matching elements.
 
       // The result of the .text() method is a string containing the combined text of all matched elements
       $movie = $(this);
-      name = $movie.find("name").text();
+      title = $movie.find("title").text();
       image = $movie.find("image").text();
       mood = $movie.find("mood").text();
 
       // movie object
       movie = {
-         name: name,
+         title: title,
          image: image
       };
 
@@ -51,7 +51,7 @@ function processXML(xml) {
          MOVIES[mood] = []; // Creating an array based on the mood
       }
 
-      // Adding the object of the movie (i.e. name, image),
+      // Adding the object of the movie (i.e. title, image),
       MOVIES[mood].push(movie);
     });
 }

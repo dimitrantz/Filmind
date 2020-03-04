@@ -2,207 +2,207 @@
 <programmeList>
    <!--
    - <programmeList> element is the root of the tree.
-   - <name> element is the first child of <programme> element, and mood is the last child.
-   - the <programme> element is the parent node of the <name>, <image>, <mood>.
+   - <title> element is the first child of <programme> element, and mood is the last child.
+   - the <programme> element is the parent node of the <title>, <image>, <mood>.
    -
 -->
    <programme id="1"> /?
-      <name>Spotlight</name>
+      <title>Spotlight</title>
       <image>images/spotlight.jpg</image>
       <mood>Agitated</mood>
    </programme>
    <programme id="2">
-      <name>Fight Club</name>
+      <title>Fight Club</title>
       <image>images/the-fight-club.jpg</image>
       <mood>Agitated</mood>
    </programme>
    <programme id="3">
-      <name>Inception</name>
+      <title>Inception</title>
       <image>images/inception.jpg</image>
       <mood>Agitated</mood>
    </programme>
    <programme id="4">
-      <name>A Beautiful Mind</name>
+      <title>A Beautiful Mind</title>
       <image>images/a-beautiful-mind.jpg</image>
       <mood>Agitated</mood>
    </programme>
    <programme id="5">
-      <name>The Wolf of Wall Street</name>
+      <title>The Wolf of Wall Street</title>
       <image>images/the-wolf-of-wall-street.jpg</image>
       <mood>Agitated</mood>
    </programme>
    <programme id="6">
-      <name>We're the Millers</name>
+      <title>We're the Millers</title>
       <image>images/we-are-the-millers.jpg</image>
       <mood>Calm</mood>
    </programme>
    <programme id="7">
-      <name>Ted 2</name>
+      <title>Ted 2</title>
       <image>images/ted.jpg</image>
       <mood>Calm</mood>
    </programme>
    <programme id="8">
-      <name>Crazy, Stupid, Love.</name>
+      <title>Crazy, Stupid, Love.</title>
       <image>images/crazy-stupid-love.jpg</image>
       <mood>Calm</mood>
    </programme>
    <programme id="9">
-      <name>The Intern</name>
+      <title>The Intern</title>
       <image>images/the-intern.jpg</image>
       <mood>Calm</mood>
    </programme>
    <programme id="10">
-      <name>Silver Linings Playbook</name>
+      <title>Silver Linings Playbook</title>
       <image>images/silver-linings-playbook.jpg</image>
       <mood>Calm</mood>
    </programme>
    <programme id="11">
-      <name>Friends with Benefits</name>
+      <title>Friends with Benefits</title>
       <image>images/Friends-With-Benefits.jpg</image>
       <mood>Happy</mood>
    </programme>
    <programme id="12">
-      <name>School of Rock</name>
+      <title>School of Rock</title>
       <image>images/School-Of-Rock.jpg</image>
       <mood>Happy</mood>
    </programme>
    <programme id="13">
-      <name>Mamma Mia!</name>
+      <title>Mamma Mia!</title>
       <image>images/mama-mia.jpg</image>
       <mood>Happy</mood>
    </programme>
    <programme id="14">
-      <name>Deadpool 2</name>
+      <title>Deadpool 2</title>
       <image>images/deadpool-2.jpg</image>
       <mood>Happy</mood>
    </programme>
    <programme id="15">
-      <name>Two Night Stand</name>
+      <title>Two Night Stand</title>
       <image>images/two-night-stand.jpg</image>
       <mood>Happy</mood>
    </programme>
    <programme id="16">
-      <name>Desert Flower</name>
+      <title>Desert Flower</title>
       <image>images/dessert-flower.jpg</image>
       <mood>Sad</mood>
    </programme>
    <programme id="17">
-      <name>P.S. I Love You</name>
+      <title>P.S. I Love You</title>
       <image>images/ps-i-love-you.jpg</image>
       <mood>Sad</mood>
    </programme>
    <programme id="18">
-      <name>The Vow</name>
+      <title>The Vow</title>
       <image>images/the-vow.jpg</image>
       <mood>Sad</mood>
    </programme>
    <programme id="19">
-      <name>My Sister's Keeper</name>
+      <title>My Sister's Keeper</title>
       <image>images/my-sisters-keeper.jpg</image>
       <mood>Sad</mood>
    </programme>
    <programme id="20">
-      <name>12 Years a Slave</name>
+      <title>12 Years a Slave</title>
       <image>images/12-yrs-a-slave.jpg</image>
       <mood>Sad</mood>
    </programme>
    <programme id="21">
-      <name>The Hangover</name>
+      <title>The Hangover</title>
       <image>images/the-hangover.jpg</image>
       <mood>Tired</mood>
    </programme>
    <programme id="22">
-      <name>Horrible Bosses</name>
+      <title>Horrible Bosses</title>
       <image>images/horrible-bosses.jpg</image>
       <mood>Tired</mood>
    </programme>
    <programme id="23">
-      <name>Ocean's Eight</name>
+      <title>Ocean's Eight</title>
       <image>images/ocens-eight.jpg</image>
       <mood>Tired</mood>
    </programme>
    <programme id="24">
-      <name>Sausage Party</name>
+      <title>Sausage Party</title>
       <image>images/sausage-party.jpg</image>
       <mood>Tired</mood>
    </programme>
    <programme id="25">
-      <name>The Italian Job</name>
+      <title>The Italian Job</title>
       <image>images/the-italian-job.jpg</image>
       <mood>Tired</mood>
    </programme>
    <programme id="26">
-      <name>Fast and Furious 8</name>
+      <title>Fast and Furious 8</title>
       <image>images/fast-and-furious-8.jpg</image>
       <mood>WideAwake</mood>
    </programme>
    <programme id="27">
-      <name>The Amazing Spider-Man 2</name>
+      <title>The Amazing Spider-Man 2</title>
       <image>images/The-Amazing-Spider-Man-2.jpg</image>
       <mood>WideAwake</mood>
    </programme>
    <programme id="28">
-      <name>Fifty Shades Freed</name>
+      <title>Fifty Shades Freed</title>
       <image>images/Fifty-Shades-Freed.jpg</image>
       <mood>WideAwake</mood>
    </programme>
    <programme id="29">
-      <name>Whiplash</name>
+      <title>Whiplash</title>
       <image>images/whiplash.jpg</image>
       <mood>WideAwake</mood>
    </programme>
    <programme id="30">
-      <name>3 Days to Kill</name>
+      <title>3 Days to Kill</title>
       <image>images/three-days-to-kill.jpg</image>
       <mood>WideAwake</mood>
    </programme>
    <programme id="31">
-      <name>Argo</name>
+      <title>Argo</title>
       <image>images/argo.jpg</image>
       <mood>Scared</mood>
    </programme>
    <programme id="32">
-      <name>Gone Girl</name>
+      <title>Gone Girl</title>
       <image>images/gone-girl.jpg</image>
       <mood>Scared</mood>
    </programme>
    <programme id="33">
-      <name>Black Swan</name>
+      <title>Black Swan</title>
       <image>images/black-swan.jpg</image>
       <mood>Scared</mood>
    </programme>
    <programme id="34">
-      <name>The Gift</name>
+      <title>The Gift</title>
       <image>images/the-gift.jpg</image>
       <mood>Scared</mood>
    </programme>
    <programme id="35">
-      <name>Shutter Island</name>
+      <title>Shutter Island</title>
       <image>images/shutter-island.jpg</image>
       <mood>Scared</mood>
    </programme>
    <programme id="36">
-      <name>The Nun</name>
+      <title>The Nun</title>
       <image>images/the-nun.jpg</image>
       <mood>Fearless</mood>
    </programme>
    <programme id="37">
-      <name>Get Out</name>
+      <title>Get Out</title>
       <image>images/get-out.jpg</image>
       <mood>Fearless</mood>
    </programme>
    <programme id="38">
-      <name>It</name>
+      <title>It</title>
       <image>images/it.jpg</image>
       <mood>Fearless</mood>
    </programme>
    <programme id="39">
-      <name>Paranormal Activity</name>
+      <title>Paranormal Activity</title>
       <image>images/paranormal-activity.jpg</image>
       <mood>Fearless</mood>
    </programme>
    <programme id="40">
-      <name>Saw</name>
+      <title>Saw</title>
       <image>images/saw.jpg</image>
       <mood>Fearless</mood>
    </programme>
