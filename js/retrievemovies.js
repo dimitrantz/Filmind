@@ -7,6 +7,17 @@ var NUM_PIC = 5;
 ALL_MOODS = ["Agitated","Calm","Happy","Sad","Tired","WideAwake","Scared","Fearless"];
 
 
+// Display the selected mood
+function display_mood(curr_mood){
+
+    let display_text = 'Last Mood Selected: not selected';
+    if (curr_mood != undefined){
+        display_text = "Last Mood Selected: " + curr_mood;
+    }
+    
+    document.getElementById("mood-selection").innerHTML = display_text
+}
+
 // Reseting the content of the slider when bar is in the middle (value = 0.5)
 function reset_slider(range_value)
 {
@@ -16,15 +27,6 @@ function reset_slider(range_value)
             document.getElementById("movie-"+i+"-title").innerHTML="No content"; //Change the HTML content of a <p> element with id="movie-"i"-title:
         }
     }
-}
-
-// Display the selected mood
-function display_mood(curr_mood){
-
-    let display_text;
-
-    display_text = "Last Mood Selected: " + curr_mood;
-    document.getElementById("mood-selection").innerHTML = display_text
 }
 
 
