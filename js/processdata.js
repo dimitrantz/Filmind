@@ -32,7 +32,7 @@ based on the mood preference.
 // open source-code script
 function processXML(xml) {
    $(xml).find('programme').each(function(){
-      var $movie, title, image, mood;
+      let $movie, title, image, mood;
 
       // .find() method allows us to search through "title", "image", "mood" of
    

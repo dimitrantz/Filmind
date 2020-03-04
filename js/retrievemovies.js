@@ -47,7 +47,7 @@ function find_movies(curr_mood)
 
 // Triggered when value of sliders is changing.
 $('input[type="range"]').change(function (){
-    let value;
+    let value, curr_mood;
 
     //The .val() method is used to get the values of the input elements.
     // When called on an empty collection, it returns undefined.
@@ -63,12 +63,30 @@ $('input[type="range"]').change(function (){
         display_mood(' ')
         return;
     }else{
-
+           
+        curr_mood = ALL_MOODS[value]
         
-            
         reset_slider(value);
-        display_mood(ALL_MOODS[value]);
-        find_movies(ALL_MOODS[value]);
-    }
-    
+        display_mood(curr_mood);
+        find_movies(curr_mood);
+        if (value <2){
+            document.getElementById("happy-sad").value = 2.5;
+            document.getElementById("tired-wideawake").value = 4.5;
+            document.getElementById("scared-fearless").value = 6.5;
+        }else if ((value >= 2) && (value < 4)){
+            document.getElementById("agitated-calm").value = 0.5;
+            document.getElementById("tired-wideawake").value = 4.5;
+            document.getElementById("scared-fearless").value = 6.5;
+        }else if ((value >= 4) && (value < 6)){
+            document.getElementById("agitated-calm").value = 0.5;
+            document.getElementById("happy-sad").value = 2.5;
+            document.getElementById("scared-fearless").value = 6.5;
+        }else if ((value >= 6) && (value < 8)){
+            document.getElementById("agitated-calm").value = 0.5;
+            document.getElementById("happy-sad").value = 2.5;
+            document.getElementById("tired-wideawake").value = 4.5;
+        }
+        value = undefined; // unset
+        delete(value); 
+    }   
 });
