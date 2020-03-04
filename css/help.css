@@ -1,0 +1,23 @@
+body{
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ }
+
+.description{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description h1{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    padding-left: 10px;
+}
+.description h3{
+    color: grey;
+    text-align: center;
+    
+    padding-left: 10px;
+}

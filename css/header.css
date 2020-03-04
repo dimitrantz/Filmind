@@ -1,0 +1,113 @@
+/* HEADER */
+.header {
+   /* The display property specifies the display behavior (the type of rendering box) of an element */
+   /* The float property specifies how an element should float. */
+   align-self: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.company-logo {
+   display: table;
+   float: left;
+   text-align: center;
+   margin: 5px;
+   width: 20%;
+}
+ 
+#pic-logo {
+   float: left;
+   padding-top: 15px;
+   width: 150px;
+   height: auto;
+
+}
+
+.header-cols{
+   display: flex;
+   flex-direction: column;
+     
+}
+
+.title-position {
+   margin-top: 5px;
+   overflow: hidden;
+   
+   align-self: left; 
+}
+
+.title-bar {
+   align-self: left; 
+   border: black;
+   padding-top: 50px ;
+   color: grey;
+   font-size: 28px;
+}
+ 
+/* Add a black background color to the top navigation */
+.topnavigator {
+   align-self: left;
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;  
+}
+ 
+/* Style the links inside the navigation bar */
+.topnavigator a {
+   align-self: left;
+   color: grey;
+   text-align: center;
+   
+   padding-left: 10px;
+   text-decoration: none;
+   font-size: 14px;
+   opacity: 0.8;
+   border-right: grey solid 1px;
+   padding-right: 15px;   
+}
+
+.topnavigator a:last-child {
+   border: none;
+}
+
+/* Change the color of links on hover */
+.topnavigator a:hover {
+   background-color: none;
+   text-decoration: underline;
+   color: midnightblue; 
+}
+ 
+ 
+/* Add a color to the active/current link */
+.topnavigator a.active {
+   background-color: #4CAF50;
+   color: white;
+}
+
+input[type=file]{
+   width: 100%;
+   padding: 10px 20px;
+   margin: 8px 2px;
+   display: inline-block;
+   border: 1px solid black;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 13px;
+}
+
+form .choose-action{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}

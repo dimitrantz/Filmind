@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sky Mood Slider</title>
+
+        <link type="text/css" rel="stylesheet" href="css/header.css"/>
+        <link type="text/css" rel="stylesheet" href="css/loadData.css"/>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+
+        <!--Navbar-->
+        <div class="header">     
+            <div class="company-logo">
+                <img src="images/sky-logo.png" alt="Sky Logo" id="pic-logo"></img>
+            </div>
+            <div class="header-cols">
+                <div class="title-position">
+                    <div class="title-bar">Welcome to Sky Moodslider</div>
+                </div>
+                <div class="topnavigator">
+                    <a href="index.html">Moodslider</a>
+                    <a href="upload.html">Upload Movie</a>
+                    <a class="upload_popup">Upload Data</a>
+                        <div class="hover_bkgr_popup">
+                            <span class="helper"></span>
+                            <div>
+                                <div class="popupCloseButton">&times;</div>
+                                <form enctype="multipart/form-data" method="post">
+                                    <p>
+                                        Please specify a file
+                                        <input type="file"  class="upload-button" id="upload" accept="text/xml">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    <a href="help.html">Help</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Upload Facility-->
+        <script>
+            $(window).load(function () {
+                $(".upload_popup").click(function(){
+                $('.hover_bkgr_popup').show();
+                });
+                
+                $('.popupCloseButton').click(function(){
+                    $('.hover_bkgr_popup').hide();
+                });
+
+                $('#upload').click(function(){
+                    $('.hover_bkgr_popup').hide();
+                });
+            });
+        </script>
+        <script src="js/processdata.js"></script>
+        
+    </body>
+    </html>

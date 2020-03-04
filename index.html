@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Sky Mood Slider</title>
+
+        <link type="text/css" rel="stylesheet" href="css/moodslider.css" />
+        <link type="text/css" rel="stylesheet" href="css/movie.css" />
+
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <!--Navbar-->
+        <script> 
+            $(function(){
+                $("#topnav").load("base.html"); 
+            });
+        </script>  
+        <div id="topnav"></div>
+        <br>
+        <!--Navbar end-->
+
+        <!--Moodslider Body-->
+        <div class="moods-body">
+            <div class="moodslider">
+               <!-- Agitated Calm Status -->
+               <div class="slider agitated-calm">
+                   <p class="text-placeholder">Agitated</p>
+                   <input class="moodslider-range" id="agitated-calm" name="agitated-calm" type="range" min="0" max="1" step="0.5" data-orientation="vertical">
+                   <p class="text-placeholder">Calm</p>
+               </div>
+               <!-- Happy Sad Status -->
+               <div class="slider happy-sad">
+                   <p class="text-placeholder">Happy</p>
+                   <input class="moodslider-range" id="happy-sad" name="happy-sad" type="range" min="2" max="3" step="0.5" data-orientation="vertical">
+                   <p class="text-placeholder">Sad</p>
+               </div>
+               <!-- Tired - Wide Awake -->
+               <div class="slider tired-wideawake">
+                   <p class="text-placeholder">Tired</p>
+                   <input class="moodslider-range" id="tired-wideawake" name="tired-wideawake" type="range" min="4" max="5" step="0.5" data-orientation="vertical">
+                   <p class="text-placeholder">Wide Awake</p>
+               </div>
+               <!-- Scared - Fearless -->
+               <div class="slider scared-fearless">
+                  <p class="text-placeholder">Scared</p>
+                  <input class="moodslider-range" id="scared-fearless" name="scared-fearless" type="range" min="6" max="7" step="0.5" data-orientation="vertical">
+                  <p class="text-placeholder">Fearless</p>
+               </div>
+            </div>
+        </div>
+        <!--Moodslider Body end-->
+        
+        <!-- Recommended Movies -->
+        <div class="selection">
+            <p id="mood-selection">Last Mood Selected: </p>
+         </div>
+   
+        <div class="movies-body">
+            <!-- Movie 00 -->
+            <div class="movie-placeholder">
+            <img class="resize-img" id="movie-0-img" src="images/no-content.png" alt="No content">
+            <p class="movie-title" id="movie-0-title">No Content</p>
+            </div>
+            <!-- Movie 01 -->
+            <div class="movie-placeholder">
+                <img class="resize-img" id="movie-1-img" src="images/no-content.png" alt="No content">
+                <p class="movie-title" id="movie-1-title">No Content</p>
+            </div>
+            <!-- Movie 02 -->
+            <div class="movie-placeholder">
+                <img class="resize-img" id="movie-2-img" src="images/no-content.png" alt="No content">
+                <p class="movie-title" id="movie-2-title">No Content</p>
+            </div>
+            <!-- Movie 03 -->
+            <div class="movie-placeholder">
+                <img class="resize-img" id="movie-3-img" src="images/no-content.png" alt="No content">
+                <p class="movie-title" id="movie-3-title">No Content</p>
+            </div>
+            <!-- Movie 04 -->
+            <div class="movie-placeholder">
+                <img class="resize-img" id="movie-4-img" src="images/no-content.png" alt="No content">
+                <p class="movie-title" id="movie-4-title">No Content</p>
+            </div>
+        </div>
+        <!--Recommended Movies end-->
+
+        <!--Scripts-->
+        <script src="js/retrievemovies.js"></script>
+        
+        <!--Scripts end-->
+    </body>
+</html>

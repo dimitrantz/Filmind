@@ -1,0 +1,50 @@
+/* Section for movies */
+
+.movies-body{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+}
+
+
+.selection p{
+   align-self: center;
+   text-align: center;
+   width: 85%;
+}
+
+
+.movie-placeholder {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+   
+   opacity: 0.75;
+   background-color: transparent;
+   
+}
+
+.movie-placeholder:hover {
+   opacity: 1;
+}
+
+.movie-title {
+   text-align: center;
+   padding: 8px 10px;
+   
+}
+
+.resize-img {
+   align-self: center;
+   text-align: center;
+   width : 150px;
+   height: 150px;   
+   border: solid lightgrey;
+}
