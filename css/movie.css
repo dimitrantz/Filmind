@@ -12,7 +12,8 @@
 .selection p{
    align-self: center;
    text-align: center;
-   width: 85%;
+   
+   color: #3AD3EA;
 }
 
 
@@ -38,13 +39,15 @@
 .movie-title {
    text-align: center;
    padding: 8px 10px;
-   
+   font-size: 11px;
 }
 
 .resize-img {
    align-self: center;
    text-align: center;
    width : 150px;
-   height: 150px;   
+   height: auto;   
+   max-height: 150px;
+   max-width: 150px;
    border: solid lightgrey;
 }

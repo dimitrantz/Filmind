@@ -16,13 +16,13 @@
    float: left;
    text-align: center;
    margin: 5px;
-   width: 20%;
+   
 }
  
 #pic-logo {
    float: left;
    padding-top: 15px;
-   width: 150px;
+   width: 100px;
    height: auto;
 
 }
@@ -43,7 +43,7 @@
 .title-bar {
    align-self: left; 
    border: black;
-   padding-top: 50px ;
+   padding-top: 30px ;
    color: grey;
    font-size: 28px;
 }
@@ -79,7 +79,7 @@
 .topnavigator a:hover {
    background-color: none;
    text-decoration: underline;
-   color: midnightblue; 
+   color: #3AD3EA; 
 }
  
  
