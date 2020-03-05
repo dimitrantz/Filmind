@@ -14,7 +14,7 @@ body{
    /* border: solid blue;  */
 }
 
-.moodslider {
+.moods {
    align-self: center;
    width: 100%;
    display: flex;
@@ -41,7 +41,7 @@ body{
    /* border: solid green;  */
 }
 
-.moodslider-range {
+.moods-range {
    float: left;
    width: 50%;
    padding-top: 20px;
